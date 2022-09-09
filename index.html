@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./media/Logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    
+    <title>Clientes</title>
+</head>
+<body>
+    <nav class="NavMenu">
+        <img class="logo" src="./media/Logo2.png">
+        <h1 class="titulo">GERENCIAMENTO DE CLIENTES</h1>
+    </nav>
+    
+    <div class="container">
+        <div class="header">
+            <span></span>
+            <button onclick="openModal()" class="btn-Incluir">INCLUIR</button>
+        </div>
+
+        <div class="divTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Email</th>
+                        <th class="acao">Editar</th>
+                        <th class="acao">Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="modal-container">
+            <div class="modal">
+                <form>
+                    <label for="form-name">Nome</label>
+                    <input id="form-name" type="text" required />
+
+                    <label for="form-cpf">CPF</label>
+                    <input id="form-cpf" type="number" required />
+
+                    <label for="form-email">E-mail</label>
+                    <input id="form-email" type="email" required />
+
+                    <button id="btnSalvar">Salvar</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="ft1">
+            <a href="https://www.linkedin.com/in/danielalmeidadetoledo/" target="_blank"> © Daniel Toledo</a>
+        </div>
+        <div class="ft2">
+            <a href="https://wa.me/5515998485252" target="_blank"><img src="./media/ft-whats.png" alt="Whatsapp"></a>
+            <a href="https://www.linkedin.com/in/danielalmeidadetoledo/" target="_blank"><img src="./media/ft-linkedin.png" alt="Linkedin"></a>
+            <a href="https://github.com/DanielAlmeidaToledo" target="_blank"><img src="./media/ft-github.png" alt="GitHub"></a>
+        </div>
+    </footer>
+
+    <script src="./crud.js"></script>
+</body>
+</html>

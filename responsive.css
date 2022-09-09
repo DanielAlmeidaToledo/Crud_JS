@@ -1,0 +1,66 @@
+/* === RESPONSIVIDADE === */
+
+@media screen and (max-width: 870px) and (min-width: 671px){
+    .NavMenu{
+        display: block;
+        height: 20vh;
+    }
+    .logo, .titulo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    .logo{
+        width: 80px;
+    }
+    
+    .titulo{
+        font-size: 2em;
+    }
+    .btn-Incluir{
+        margin: 20px 0;
+    }
+    .divTable{
+        display: flex;
+        margin: 0 auto;
+    }
+    td{
+        padding-bottom: 5px;
+    }
+    
+    th{
+        padding: 2vh 15vw 2vh 1vw;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .NavMenu{
+        display: block;
+        height: 20vh;
+    }
+    .logo, .titulo{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    .titulo{
+        font-size: 1.25em;
+    }
+    .btn-Incluir{
+        margin: 50px 0 30px 0;
+        width: 100px;
+    }
+    .divTable{
+        display: flex;
+        margin: 0;
+    }
+    td{
+        padding-bottom: 2px;
+    }
+    
+    th{
+        padding: 2vh 0 2vh 0vw;
+    }
+}
