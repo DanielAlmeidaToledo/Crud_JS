@@ -11,7 +11,7 @@
 
 ## 🎯 Objetivo:
 
-- Projeto de um CRUD desenvolvido em JavaScrip para gerenciar os clientes de uma empresa. Esse projeto foi desenvolvido com a finalidade de explorar os conhecimentos em JavaScript e tecnologias de Front-End. 
+- Projeto de um CRUD desenvolvido em JavaScript para gerenciar os clientes de uma empresa. Esse projeto foi desenvolvido com a finalidade de explorar os conhecimentos em tecnologias de Front-End. 
 
 ### 📞 Contato:
 
