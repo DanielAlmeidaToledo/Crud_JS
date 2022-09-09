@@ -1,4 +1,4 @@
-# Gerenciamento de Clientes 🏪💳 - Crud em JavaScrip 
+# Gerenciamento de Clientes 🏪💳 - Crud em JavaScript
 
 [Video.webm](https://user-images.githubusercontent.com/96501443/189258527-b39419a8-71bc-4f06-b4b0-6fb4f5260925.webm)
 
